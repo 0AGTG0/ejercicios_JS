@@ -1,7 +1,6 @@
-var contadorNumero = 0;
+const swith = document.querySelector("#btn");
 
-function contar(){
-    contadorNumero++;
-    var p = document.getElementById("texto");
-    p.innerText = "Veces que has presionado el botón: " + contadorNumero;
-}
+swith.addEventListener("click", e => {
+    swith.classList.toggle("active");
+    document.body.classList.toggle("active");
+})

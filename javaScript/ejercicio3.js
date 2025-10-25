@@ -1,7 +1,6 @@
-
 function ocultar(){
-    var boton = document.getElementById('btn');
-    var imagen = document.getElementById('pepsiLata');
+    var boton = document.querySelector('#btn');
+    var imagen = document.querySelector('#pepsiLata');
     if (boton.value == 'Ocultar') {
         imagen.style.display = 'none';
         boton.value = 'Mostrar';

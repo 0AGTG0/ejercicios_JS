@@ -13,3 +13,31 @@ ul{
 ul li{
     padding: 5px;
 }
+
+#sec1{
+    background-color: lightblue;
+}
+
+#sec2{
+    background-color: lightgreen;
+}
+
+#sec3{
+    background-color: lightcoral;
+}
+
+body.active #sec1{
+    background-color: #0a07c2;
+}
+
+body.active #sec2{
+    background-color: #0acc31;
+}
+
+body.active #sec3{
+    background-color: #e91515;
+}
+
+body.active p{
+    color: white;
+}
